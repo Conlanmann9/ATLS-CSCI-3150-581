@@ -1,0 +1,77 @@
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+}
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  section {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+
+  
+  @media (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  /* Task 2 CSS */
+  .task1 h1 {
+    color: red;
+  }
+  
+  .task1 p {
+    color: gray;
+  }
+  /* Task 2 CSS */
+  .task2 ul {
+    border: 5px solid green;
+  }
+  
+  .task2 ol {
+    border: 1px solid blue;
+  }
+  
+  .task2 ol, .task2 ul {
+    padding: 10px 50px;
+    border-radius: 20px;
+  }
+  /* Task 3 CSS */
+  .task3 h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: purple;
+  }
+  
+  .task3 dt {
+    font-weight: bold;
+    color: purple;
+  }
+  
+  .task3 dd {
+    margin-bottom: 10px;
+    color: gray;
+  }
+  
